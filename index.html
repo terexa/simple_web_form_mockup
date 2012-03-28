@@ -6,7 +6,8 @@
 		<META name="Author" lang="en" content="Terexa O Higgins">
 		<META name="keywords" lang="en" content="Web, Development, Exercise">
 		<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-5">
-		<SCRIPT type="text/javascript" src="assets/javascripts/application.js"></SCRIPT>
+		<script type="text/javascript" src="assets/javascripts/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="assets/javascripts/application.js"></script>
 		<LINK rel="stylesheet" type="text/css" href="assets/stylesheets/application.css">
 	</HEAD>
 	<BODY>
@@ -57,14 +58,14 @@
 					</div>
 					<div class="row">
 						<LABEL>License Type: </LABEL>
-						<select name="choice" size="1" onChange="jump(this.form)">
-							<option value="">Please select</option>
-							<option value="http://www.yahoo.com">Provisional</option>
-							<option value="http://www.hotbot.com">Full EU</option>
-							<option value="http://www.hotbot.com">Full Irish</option>
+						<select id="license-type" size="1">
+							<option value="default">Please select</option>
+							<option value="provisional">Provisional</option>
+							<option value="eu">Full EU</option>
+							<option value="irish">Full Irish</option>
 						</select>
 					</div>
-					<div class="row">
+					<div id="full-license" class="row">
 						<LABEL>How long have you had your full license? </LABEL>
 						<INPUT type="radio" name="howlong" value="more5">
 						More than 5 years
