@@ -83,7 +83,8 @@ label {
     text-align: center;
 }
 .page-banner{
-     text-align: left;;
+     text-align: left;
+     position:relative;
 }
 .page-footer {
     padding: 10px;
@@ -105,10 +106,12 @@ label {
     min-height: 100%;
     width: 700px;
     border-radius: 10px 10px 10px 10px;
+    margin-bottom: 20px;
 }
 .detail-form .row{
     padding-bottom: 10px;
     padding-top: 5px;
+    position:relative;
    }
 
 .detail-box {
@@ -126,7 +129,9 @@ label {
 }
 
 .search-box{
-	float: right;
+	top: 0px;
+	position: absolute;
+	right: 0px;
 }
 .right-box{
     float: right;
@@ -160,4 +165,9 @@ label {
 .radius-box-grey img{
     float: left;
     margin-right: 5px;
+}
+.delete-driver{
+	position:absolute;
+	left: 10px;
+	color: blue;
 }
