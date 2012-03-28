@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+	<HEAD>
+		<TITLE>IQ Content - Web Development Exercise</TITLE>
+		<META name="Author" lang="en" content="Terexa O Higgins">
+		<META name="keywords" lang="en" content="Web, Development, Exercise">
+		<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-5">
+		<SCRIPT type="text/javascript" src="assets/javascripts/application.js"></SCRIPT>
+		<LINK rel="stylesheet" type="text/css" href="assets/stylesheets/application.css">
+	</HEAD>
+	<BODY>
+		<div class="page-banner">
+			<img src="assets/images/logo.jpeg" width="213" height="62" alt="Logo" title="Logo">
+			<form class="search-box"  name="searchform" action="http://www.google.com/search">
+				<div>
+				<input type="hidden" name="sitesearch" value="Search">
+				<input onfocus="searchfield_focus(this)" style="width:150px;color:#808080;margin:0;" type="text" name="as_q" size="20" value="Search">
+				<input type="submit" style="margin:0;" value="Go" title="Go">
+				</div>
+			</form>
+		</div>
+		<div class="page-box">
+			Basic Details
+		</div>
+		<DIV class="page">
+			
+			<div class="right-box">
+				<INPUT class="button-speak-agent" type="submit" value="Speak to an agent"><BR>
+				<div class="row"><img src="assets/images/chat.png" alt="Chat"><a href="#"> Chat to an agent online</a></div>
+				<div class="row"><img src="assets/images/email.png" alt="Email"><a href="#"> email customer service</a></div>
+				<div class="row"><img src="assets/images/phone.png" alt="Phone"> 1850 555 6666</div>
+				<BR>
+				<div class="radius-box-grey"><img src="assets/images/pdf.png" alt="Terms"><a href="#">Terms of business</a></div>
+				<div class="radius-box-grey"><img src="assets/images/pdf.png" alt="Policy"><a href="#"> Policy wording</a></div>
+				<div class="radius-box-grey"><img src="assets/images/pdf.png" alt="Quote"><a href="#"> Your quote letter</a></div>
+			</div>
+			
+			<div class="detail-form">
+				<div class="detail-top">
+					About you
+				</div>
+				<FORM action="http://somesite.com/prog/adduser" method="post">
+					<div class="row">
+						<LABEL for="dateofbirth">Date of Birth: </LABEL>
+						<INPUT type="text" id="dateofbirth">
+						Example: 18/05/1970
+					</div>
+					<div class="row">
+						<LABEL>Gender: </LABEL>
+						<INPUT type="radio" name="sex" value="Male">
+						Male
+						<BR>
+						<INPUT type="radio" name="sex" value="Female">
+						Female
+						<BR>
+					</div>
+					<div class="row">
+						<LABEL>License Type: </LABEL>
+						<select name="choice" size="1" onChange="jump(this.form)">
+							<option value="">Please select</option>
+							<option value="http://www.yahoo.com">Provisional</option>
+							<option value="http://www.hotbot.com">Full EU</option>
+							<option value="http://www.hotbot.com">Full Irish</option>
+						</select>
+					</div>
+					<div class="row">
+						<LABEL>How long have you had your full license? </LABEL>
+						<INPUT type="radio" name="howlong" value="more5">
+						More than 5 years
+						<BR>
+						<INPUT type="radio" name="howlong" value="less5">
+						Less than 5 years
+						<BR>
+					</div>
+				</FORM>
+			</div>			
+			<BR>
+			<div class="detail-form">
+				<div class="detail-top">
+					[+] Add another driver to this policy
+				</div>
+			</div>
+			<BR>
+			<div class="detail-box">
+				<INPUT class="button-view-quote" type="submit" value="View your quote">
+			</div>
+			
+		</DIV>
+		<div class="page-box">
+			<a href="#">Contact us</a> |
+			<a href="#">Privacy</a> |
+			<a href="#">Terms of business</a> |
+			<a href="#">Corporate</a> |
+			<a href="#">Careers</a>
+		</div>
+		<div class="page-footer">
+			Insurance Company's regulated by the Financial Regulator. Registered in Ireland No. 12345. Registered Office Ballsbridge, Dublin 4
+		</div>
+	</BODY>
+</HTML>
