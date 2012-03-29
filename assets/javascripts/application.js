@@ -28,7 +28,7 @@ $(document).ready(function() {
 			
 		$('#driver'+n).append("<div id='detail-top-"+n+"' class='detail-top'>Driver "+n+"</div>");
 		$('#driver'+n).append("<FORM id='form-drive"+n+"' action='#' method='post'><FORM/>");
-		$('#form-drive'+n).append("<div class='row'><a id='"+n+"' class='delete-driver' href='#'>Delete this driver</a><LABEL for='dateofbirth'>Date of Birth: </LABEL><INPUT type='text' id='dateofbirth'>Example: 18/05/1970</div>");
+		$('#form-drive'+n).append("<div class='row'><a id='"+n+"' class='delete-driver' href='#'>Delete this driver</a><LABEL for='dateofbirth'>Date of Birth: </LABEL><INPUT type='text' id='dateofbirth'> Example: 18/05/1970</div>");
 		$('#form-drive'+n).append("<div class='row'><LABEL>Gender: </LABEL><INPUT type='radio' name='sex' value='Male'>Male<BR><INPUT type='radio' name='sex' value='Female'>Female<BR></div>");
 		$('#form-drive'+n).append("<div class='row'><LABEL>License Type: </LABEL><select><option value='default'>Please select</option><option value='provisional'>Provisional</option><option value='eu'>Full EU</option><option value='irish'>Full Irish</option></select></div>");
 		$('#driver'+n).show();

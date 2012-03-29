@@ -30,35 +30,6 @@ div {
 .invisible{
 	visibility: hidden;
 }
-
-#notice {
-  color: green; }
-
-.field_with_errors {
-  padding: 2px;
-  background-color: red;
-  display: table; }
-
-#error_explanation {
-  width: 450px;
-  border: 2px solid red;
-  padding: 7px;
-  padding-bottom: 0;
-  margin-bottom: 20px;
-  background-color: #f0f0f0;
-  h2 {
-    text-align: left;
-    font-weight: bold;
-    padding: 5px 5px 5px 15px;
-    font-size: 12px;
-    margin: -7px;
-    margin-bottom: 0px;
-    background-color: #c00;
-    color: #fff; }
-  ul li {
-    font-size: 12px;
-    list-style: square; } }
-
 label {
 	color: #0033;
 	line-height:23px;
@@ -67,7 +38,6 @@ label {
     width: 260px;
     margin-right: 5px;
 }
-
 .page {
 	background-color: #FFF;
     color: #666666;
